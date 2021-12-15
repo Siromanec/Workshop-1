@@ -1,10 +1,8 @@
-"""Module made for reading from csv file for tracking program
-    """
-
+"""Module made for reading from csv file for tracking program"""
 
 def read_file(file_path: str) -> dict:
     """function that reads csv file and returns dict \
-woth date as key and list with sublists as values
+    woth date as key and list with sublists as values
 
     Args:
         file_path (str): file destination
@@ -39,7 +37,7 @@ def write_file(file_path, new_dict):
     Args:
         file_path ([type]): file destination
         new_dict ([type]): new dict with same type of keys and \
-values as in read_file
+    values as in read_file
     """
     with open(file_path, 'w', encoding='utf_8') as file:
         first_line = 'DATES,TASK,NUMBER_NEEDED,REAL_NUMBER,PRIORITY,SUCCESS,FAILURE\n'
