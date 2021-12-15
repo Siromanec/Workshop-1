@@ -11,6 +11,8 @@ woth date as key and list with sublists as values
 
     Returns:
         dict: dict
+    >>> read_file('tasks')
+    {'16.12.2021': [['eat', '2', '1', '1', '', '*']]}
     """
     with open(file_path, 'r', encoding='utf_8') as file:
         dates = file.readlines()
