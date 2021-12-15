@@ -1,1 +1,1 @@
-Program that helps you plan your tasks.
+This program helps you plan your tasks.
